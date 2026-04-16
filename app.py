@@ -3,6 +3,11 @@ import os
 from api import note_generator, audio_generator,quiz_generator
 from PIL import Image
 
+st.set_page_config(
+   page_title="Note Summary and Quiz Generator",
+   initial_sidebar_state="expanded",
+)
+
 st.title("Note Summary and Quiz Generator",anchor = False)
 st.markdown("Upload upto 5 images to generate note summary and quiz questions")
 
